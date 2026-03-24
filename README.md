@@ -65,6 +65,6 @@ Books: Géron (Hands-On ML) · Deisenroth (Math for ML) · Sutton & Barto (RL)
 ---
 
 ## Contact
-- LinkedIn: [https://www.linkedin.com/in/sagar-tirlapur/]
+- LinkedIn: [linkedin.com/in/sagar-tirlapur](https://www.linkedin.com/in/sagar-tirlapur/)
 - Location: Italy — open to Europe + remote global roles
 
