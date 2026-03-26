@@ -36,27 +36,24 @@ Reinforcement learning, no labels needed. The agent acts, receives a reward and 
 ---
 
 ## The Multi-Armed Bandit
-[2 sentences. What is it and how is your factory 
-simulation specifically a bandit problem?]
+My factory simulation is a bandit problem because the agent takes a decision every time immaterial of correct maintenance trigger or false alarm and then decide based on the reward signal.
 
 ---
 
 ## Where My Simulation Sits in the ML Taxonomy
-[2 sentences. Reinforcement learning — why specifically?]
+Unline supervised learning which would require labelled data, my simulation is reinforcement learning because the agent decides and then find out if a trigger was correct or false and learns from the reward signals.
 
 ---
 
 ## One Thing I Want to Understand Better
-[1-2 honest sentences]
+To eventually understand which model suits the problem better, Reinforcement learning, supervised learning or unsupervised learning. Then the skill defining the threshold or the value to get the right performance out of the models.
 
 ---
 
 ## PMM Bridge — Day 1
-[3 sentences positioning "AI that evaluates outcomes 
-before acting" for a factory operations manager.
-Value only. No jargon. No algorithms.]
+- The decision agent targets three main areas:
+- Reduction in unplanned downtime of the production line
+- Cutting unnecessary maintenance costs
+- Steady production without unwanted interference
 ```
 
-Fill every field. Commit with message:
-```
-Add Day 1 reading note
