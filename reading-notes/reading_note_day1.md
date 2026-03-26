@@ -36,13 +36,12 @@ Reinforcement learning, no labels needed. The agent acts, receives a reward and 
 ---
 
 ## The Multi-Armed Bandit
-My factory simulation is a bandit problem because the agent takes a decision every time immaterial of correct maintenance trigger or false alarm and then decide based on the reward signal.
+My factory simulation is a bandit problem because the agent must repeatedly choose between act and wait without knowing in adavance which action produces the best reward. It can only learn by acting and observing the reward signal it receives.
 
 ---
 
 ## Where My Simulation Sits in the ML Taxonomy
-Unline supervised learning which would require labelled data, my simulation is reinforcement learning because the agent decides and then find out if a trigger was correct or false and learns from the reward signals.
-
+Unlike supervised learning which would require labelled data, my simulation is reinforcement learning because the agent decides and then recives a reward signal telling it how good its decision was.
 ---
 
 ## One Thing I Want to Understand Better
@@ -51,9 +50,6 @@ To eventually understand which model suits the problem better, Reinforcement lea
 ---
 
 ## PMM Bridge — Day 1
-- The decision agent targets three main areas:
-- Reduction in unplanned downtime of the production line
-- Cutting unnecessary maintenance costs
-- Steady production without unwanted interference
+Factory floors lose signficant production time every month responding to maintenance alerts that turn out to be false alarms and technicians are dispatched, lines are paused, and nothing was actually wrong. this system learns to distinguish genuine equipment failures from sensor noise before triggering an alert, so your maintenance team only repsonds when action is truly needed. Teh result is fewer disruptions to your production schedule and maintenance resources spent on real problems rather than phantom ones.
 ```
 
