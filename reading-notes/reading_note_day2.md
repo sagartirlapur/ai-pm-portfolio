@@ -9,16 +9,20 @@ Counterfactual Explainability article
 
 **The tradeoff in my own words:**
 An agent that only exploits gets stuck on the first good action it finds and never discovers better ones. 
-An agent that only explores never uses what it has learned and wastes every experience. The tension is finding the right balance between the two
+An agent that only explores never uses what it has learned and wastes every experience. The tension is finding the right balance between the two.
 
 ---
 
 ## Why Pure Greed Fails
 
 **In my own words:**
-Pure greed fails for that exact reason, where the agent chooses the best known action over and over again leading to poor long term performance.
-The reason is that the agent never discovers whether other actions might be better. 
+Pure greed fails for that exact reason, where the agent chooses the best known action over and over again leading to 
+poor long term performance. The reason is that the agent never discovers whether other actions might be better. 
 It locks in on an early assumption and never tests it.
+
+**Factory floor example:**
+The robot always triggers maintenance as it was rewarded once and this doesn't allow it learn different possibilities of 
+maintenance as there are different anomalies that could occur in a factory.
 
 ---
 
